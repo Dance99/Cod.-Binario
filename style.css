@@ -1,0 +1,22 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing:  border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(blue, purple, rgb(213, 0, 164));
+}
+.container {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+table {
+    color:black;
+    font: size 14px;
+    border-collapse: collapse;
+}
